@@ -12,7 +12,7 @@ const ReferenceCard = ({ reference }) => {
   const { variant, label } = STATUS_BADGE[publishStatus] ?? STATUS_BADGE.draft;
 
   return (
-    <Card>
+    <Card style={{ marginTop: "15px" }}>
       <Flex justifyContent="space-between" alignItems="flex-start">
         <Box>
           <Flex alignItems="center" gap="spacingXs" marginBottom="spacingXs">
